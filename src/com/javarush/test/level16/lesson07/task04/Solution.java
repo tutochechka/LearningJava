@@ -43,8 +43,15 @@ public class Solution {
             }
         }
 
-        public void printCountdown() throws InterruptedException {
-            //add your code here - добавь код тут
-        }
+        public void printCountdown() throws InterruptedException
+        {
+            countFrom = countFrom -1;
+            System.out.println(list.get(countFrom));
+            Thread.sleep(500);
+
+
+
+        }//add your code here - добавь код тут
+
     }
 }
